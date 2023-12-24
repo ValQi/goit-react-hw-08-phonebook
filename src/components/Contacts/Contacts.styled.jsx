@@ -4,11 +4,13 @@ export const ContactLi = styled.li`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+
   p {
     margin-right: 5px;
   }
+
   button {
-    width: 100px;
+    width: 150px;
     cursor: pointer;
     background-color: #8ac2dc;
     border-radius: 5px;
