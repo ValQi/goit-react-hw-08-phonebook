@@ -5,9 +5,9 @@ export const Form = styled.form`
   flex-direction: column;
   width: 400px;
   padding: 10px;
-  outline: 1px solid grey;
+  outline: 1px solid grey;  
   border-radius: 20px;
-  background-color: #d3d3d3;
+  background-color: #abdfeb;
   margin: 0 auto;
 `;
 
@@ -32,13 +32,13 @@ export const Button = styled.button`
   border-radius: 2px;
   border: none;
   box-shadow: 0 1px 10px grey;
-  background-color: #499ba7;
+  background-color: #53a3b1;
   margin-right: 7px;
   box-shadow: 0 2px 5px grey;
 
   &:hover,
   &:focus {
-    background-color: #59a8bd;
+    background-color: #69afc5;
     color: #b6dce6;
     transform: scale(1.1);
   }

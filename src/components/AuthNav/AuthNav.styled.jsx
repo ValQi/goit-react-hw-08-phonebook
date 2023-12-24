@@ -6,10 +6,10 @@ export const Auth = styled(NavLink)`
 
   display: inline-block;
   text-decoration: none;
-  padding: 10px;
-  font-weight: 800;
+  padding: 25px;
+  font-weight: 1000;
   color: #409bb2;
-  font-size: 20px;
+  font-size: 25px;
 
   &:hover {
     color: #154354;

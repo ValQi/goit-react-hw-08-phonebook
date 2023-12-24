@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { Form } from 'formik';
 
 export const Formikk = styled(Form)`
-   display: flex;
+  display: flex;
   flex-direction: column;
-  width: 700px;
-  padding: 5px;
+  width: 1200px;
+  padding: 25px;
   outline: 1px solid grey;
   border-radius: 20px;
   background-color: #97cedd;

@@ -2,14 +2,14 @@ import { Helmet } from 'react-helmet';
 
 const styles = {
   container: {
-        display: 'flex',
+    display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: '30px',
+    marginBottom: '10px',
   },
   title: {
-    fontWeight: 500,
-    fontSize: 48,
+    fontWeight: 800,
+    fontSize: 58,
     textAlign: 'center',
   },
 };

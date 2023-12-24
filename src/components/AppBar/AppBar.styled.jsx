@@ -12,6 +12,6 @@ export const Head = styled.header`
 
   background-color: #abdfeb;
 
-  margin-bottom: 25px;
-  padding: 12px 25px;
+  margin-bottom: 85px;
+  padding: 5px 75px;
 `;
