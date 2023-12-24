@@ -1,4 +1,3 @@
-import { RiContactsBookLine } from 'react-icons/ri';
 import { Helmet } from 'react-helmet';
 
 const styles = {
@@ -21,8 +20,7 @@ const HomePage = () => {
       <Helmet>
         <title>Home page</title>
       </Helmet>
-      <h1 style={styles.title}>Create your contact book </h1>
-      <RiContactsBookLine fill="#ff923cba" fontSize="80" />
+      <h1 style={styles.title}>Зроби свою, книгу контактів!</h1>
     </div>
   );
 };

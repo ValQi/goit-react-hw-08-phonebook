@@ -1,9 +1,9 @@
 import { UserDiv, Text, UserBtn } from './UserMenu.styled';
 
 import { useDispatch } from "react-redux";
-import { logOut } from "redux/auth/operations";
+import { logOut } from "../../redux/auth/operations";
 
-import { useAuth } from "hooks";
+import { useAuth } from 'hooks/useAuth';
 
 export const UserMenu = () => {
   const dispatch = useDispatch();

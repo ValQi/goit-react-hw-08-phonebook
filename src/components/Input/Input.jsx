@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { selectContacts } from 'redux/contacts/selectors';
-import { addContact } from 'redux/contacts/operations';
+import { selectContacts } from '../../redux/contacts/selectors';
+import { addContact } from '../../redux/contacts/operations';
 
 import { Field, ErrorMessage, Formik } from 'formik';
 import { Formikk } from './Input.styled';
@@ -12,7 +12,6 @@ const NameInputSchema = Yup.object().shape({
     .matches(/^\+[1-9]\d{1,14}$/, 'Невірний номер телефону')
     .required('Повинно бути філд'),
 });
-
 export const NameInput = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(selectContacts);
@@ -21,12 +20,10 @@ export const NameInput = () => {
     const hasContact = contacts.some(
       contact => contact.name === newContact.name
     );
-
     if (hasContact) {
       alert('A contact with that name already exists');
       return;
     }
-
     dispatch(addContact(newContact));
   };
   return (
