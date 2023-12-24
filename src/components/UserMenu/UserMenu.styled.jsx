@@ -5,13 +5,13 @@ export const UserBtn = styled.button`
   border-radius: 5px;
   border: none;
   box-shadow: 0 1px 7px grey;
-  background-color: orange;
+  background-color: #7ed9dc;
     margin-right: 4px;
 
   &:hover,
   &:focus {
     color: white;
-    background-color: blueviolet;
+    background-color: #153333;
     cursor: pointer;
     transform: scale(1.1);
   }

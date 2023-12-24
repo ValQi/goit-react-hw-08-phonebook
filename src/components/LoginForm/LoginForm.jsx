@@ -1,13 +1,13 @@
 import { useDispatch } from 'react-redux';
+
 import { logIn } from 'redux/auth/operations';
 import { Form, Label, Input, Button } from './LoginForm.styled';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    const form = e.currentTarget;
+  const handleSubmit = element => {
+    element.preventDefault();
+    const form = element.currentTarget;
     dispatch(
       logIn({
         email: form.elements.email.value,

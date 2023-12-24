@@ -1,9 +1,9 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { deleteContact } from 'redux/contacts/operations';
-import { ContactsList, ContactEl } from './Contacts.styled';
-import { useSelector } from 'react-redux';
+
 import { selectVisibleContacts } from 'redux/contacts/selectors';
 import { selectIsLoading } from 'redux/contacts/selectors';
+import { ContactsUl, ContactLi } from './Contacts.styled';
 
 export const Contacts = () => {
   const dispatch = useDispatch();
@@ -13,23 +13,22 @@ export const Contacts = () => {
   return (
     <div>
       {isLoading ? (
-        <p>Please, wait...</p>
+        <p>Будь ласка зачекайте...</p>
       ) : (
-        <ContactsList>
-          {filteredContacts.map(e => (
-            <ContactEl key={e.id}>
+        <ContactsUl>
+          {filteredContacts.map(element => (
+            <ContactLi key={element.id}>
               <p>
-                {e.name}: {e.number}
+                {element.name}: {element.number}
               </p>
               <button
                 type="button"
-                onClick={() => dispatch(deleteContact(e.id))}
-              >
-                Delete
+                onClick={() => dispatch(deleteContact(element.id))}
+              > Видалити
               </button>
-            </ContactEl>
+            </ContactLi>
           ))}
-        </ContactsList>
+        </ContactsUl>
       )}
     </div>
   );

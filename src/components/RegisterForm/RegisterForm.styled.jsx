@@ -27,19 +27,19 @@ export const Input = styled.input`
 
 export const Button = styled.button`
  width: 100px;
-  padding: 5px;
+  padding: 6px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 2px;
   border: none;
-  box-shadow: 0 1px 7px grey;
-  background-color: orange;
-  margin-right: 4px;
-  box-shadow: 0 1px 7px grey;
+  box-shadow: 0 1px 10px grey;
+  background-color: #499ba7;
+  margin-right: 7px;
+  box-shadow: 0 2px 5px grey;
 
   &:hover,
   &:focus {
-    background-color: blueviolet;
-    color: #fff;
+    background-color: #59a8bd;
+    color: #b6dce6;
     transform: scale(1.1);
   }
 `;
