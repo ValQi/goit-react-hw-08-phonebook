@@ -9,7 +9,7 @@ const setAuth = token => {
 const clearAuth = () => {
   axios.defaults.headers.common.Authorization = '';
 };
-
+// REGISTER
 export const register = createAsyncThunk(
   'auth/register',
   async (creds, thunkAPI) => {
@@ -22,6 +22,7 @@ export const register = createAsyncThunk(
     }
   }
 );
+// LOGIN
 export const logIn = createAsyncThunk('auth/logIn', async (creds, thunkAPI) => {
   try {
     const response = await axios.post('/users/login', creds);
@@ -31,6 +32,7 @@ export const logIn = createAsyncThunk('auth/logIn', async (creds, thunkAPI) => {
     return thunkAPI.rejectWithValue(error.message);
   }
 });
+// LOG OUT
 export const logOut = createAsyncThunk('auth/logOut', async (_, thunkAPI) => {
   try {
     await axios.post('/users/logout');
@@ -39,12 +41,12 @@ export const logOut = createAsyncThunk('auth/logOut', async (_, thunkAPI) => {
     return thunkAPI.rejectWithValue(error.message);
   }
 });
+// REFRESHER
 export const refreshUser = createAsyncThunk(
   'auth/refreshUser',
   async (_, thunkAPI) => {
     const state = thunkAPI.getState();
     const token = state.auth.token;
-
     if (!token) {
       return thunkAPI.rejectWithValue('Not Valid');
     }
