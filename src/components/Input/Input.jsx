@@ -18,7 +18,7 @@ export const NameInput = () => {
 
   const addNewContact = newContact => {
     const hasContact = contacts.some(
-      contact => contact.name === newContact.name
+      contact => contact.name.toLowerCase() === newContact.name.toLowerCase()
     );
     if (hasContact) {
       alert('A contact with that name already exists');
