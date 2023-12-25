@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.cd2e038f.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.72e5bff9.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.ddebdc7c.js",
     "static/js/698.b98f7422.chunk.js": "/goit-react-hw-08-phonebook/static/js/698.b98f7422.chunk.js",
-    "static/js/882.1515fe9d.chunk.js": "/goit-react-hw-08-phonebook/static/js/882.1515fe9d.chunk.js",
+    "static/js/882.04562c48.chunk.js": "/goit-react-hw-08-phonebook/static/js/882.04562c48.chunk.js",
     "static/js/983.e92c631c.chunk.js": "/goit-react-hw-08-phonebook/static/js/983.e92c631c.chunk.js",
     "static/js/65.b52f8fb2.chunk.js": "/goit-react-hw-08-phonebook/static/js/65.b52f8fb2.chunk.js",
     "static/js/270.ed8f73c4.chunk.js": "/goit-react-hw-08-phonebook/static/js/270.ed8f73c4.chunk.js",
     "static/js/306.bdf4eddb.chunk.js": "/goit-react-hw-08-phonebook/static/js/306.bdf4eddb.chunk.js",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.cd2e038f.css.map": "/goit-react-hw-08-phonebook/static/css/main.cd2e038f.css.map",
-    "main.72e5bff9.js.map": "/goit-react-hw-08-phonebook/static/js/main.72e5bff9.js.map",
+    "main.ddebdc7c.js.map": "/goit-react-hw-08-phonebook/static/js/main.ddebdc7c.js.map",
     "698.b98f7422.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/698.b98f7422.chunk.js.map",
-    "882.1515fe9d.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/882.1515fe9d.chunk.js.map",
+    "882.04562c48.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/882.04562c48.chunk.js.map",
     "983.e92c631c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/983.e92c631c.chunk.js.map",
     "65.b52f8fb2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/65.b52f8fb2.chunk.js.map",
     "270.ed8f73c4.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/270.ed8f73c4.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.72e5bff9.js"
+    "static/js/main.ddebdc7c.js"
   ]
 }
